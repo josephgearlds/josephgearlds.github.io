@@ -66,7 +66,9 @@ main{
     align-content: center;
     margin-top: 5%;
 }
-
+#center{
+   margin-top: 10vh;
+}
 #div2{
     margin: auto auto auto 0;
     display: block;
