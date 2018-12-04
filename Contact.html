@@ -44,16 +44,22 @@
         <a href="https://twitter.com/?lang=en" target="_blank"><img id="twitter" src="images/Twitter.png" alt="Instagram icon"></a>
         </div>
         <div id="form">
-        <form action="https://formspree.io/josephjames73@live.com" method="post">
+        <form action="https://formspree.io/josephjames73@live.com" id="userform" method="post">
     			<fieldset>
-	        		<legend></legend>
+                <div >
 	        		<label for="comments">Comments</label>
-	        		<input type="comment" name="comment" id="comment"><br>
+                    <textarea rows="4" cols="50" name="comment" id="comment" form="userform">Enter text here...</textarea>
+                </div>
+                <div>
                     <label for="name">Name</label>
 	        		<input type="name" name="name" id="name"><br>
                     <label for="email">Email</label>
-	        		<input type="email" name="email" id="email"><br>
-                   <input type="submit" value="Send">
+	        		<input type="email" name="email" id="email">
+                </div>
+                <div>
+<!--                  Check Box-->
+                   <input type="submit" value="Submit">
+                </div>
                 </fieldset>
             </form>
         </div>
