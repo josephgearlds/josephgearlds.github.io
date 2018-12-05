@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title></title>
+    <title>Donut Delights</title>
 	<link rel="shortcut icon" href="images/favicon.ico">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/ContactPage.css">
@@ -37,30 +37,32 @@
     <main>
        <div id="info">
         <div id="text">
-            <h3>Contact Us<br>(217)-555-1234<br>contact@donutdelights.com</h3>
+            <h3>Contact Us<br><br>(217)-555-1234<br><br>contact@donutdelights.com</h3>
         </div>
         <a href="https://www.facebook.com/" target="_blank"><img id="facebook" src="images/Facebook.png" alt="Facebook icon"></a>
         <a href="https://www.instagram.com/?hl=en" target="_blank"><img id="instagram" src="images/Instagram.png" alt="Instagram icon"></a>
         <a href="https://twitter.com/?lang=en" target="_blank"><img id="twitter" src="images/Twitter.png" alt="Instagram icon"></a>
         </div>
         <div id="form">
-        <form action="https://formspree.io/josephjames73@live.com" id="userform" method="post">
-    			<fieldset>
-                <div >
-	        		<label for="comments">Comments</label>
-                    <textarea rows="4" cols="50" name="comment" id="comment" form="userform">Enter text here...</textarea>
+            <form action="https://formspree.io/josephjames73@live.com" id="userform" method="post">
+                <div id="comments">
+	        		<h3>Comments</h3>
+                    <label for="comments"></label>
+                    <textarea rows="4" cols="50" id="textbox" name="comments" form="userform">Enter text here...</textarea>
                 </div>
-                <div>
+                <div id="forminfo">
                     <label for="name">Name</label>
 	        		<input type="name" name="name" id="name"><br>
                     <label for="email">Email</label>
 	        		<input type="email" name="email" id="email">
                 </div>
-                <div>
-<!--                  Check Box-->
-                   <input type="submit" value="Submit">
+                <div id="checkbox">
+                    <input type="checkbox" name="subscription" > Check the box to subscrice to out newsletter for the latest on our seasonal offerings and special events.<br>
                 </div>
-                </fieldset>
+                <div id="submit">
+                    <input type="submit" id="submitbox" value="Submit">
+                </div>
+                
             </form>
         </div>
         <div id="picture">
