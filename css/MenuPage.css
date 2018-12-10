@@ -80,6 +80,7 @@ main{
 #carousel{
     grid-column: 3/4;
     text-align: center;
+    margin-right: 25%;
 }
 /*Footer styles*/
 footer{
