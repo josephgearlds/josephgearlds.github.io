@@ -38,7 +38,7 @@ nav{
     position:relative;
 }
 #navbar ul li a{
-    font-family: Myriad Variable Concept;
+    font-family: "Myriad Variable Concept", "Times New Roman", "Sans Serif";
     display: block;
     text-align: center;
     text-decoration: none;
