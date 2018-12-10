@@ -3,10 +3,12 @@
 
 <head>
 	<meta charset="utf-8">
+    <meta name="robots" content="noindex, nofollow">
 	<title>Donut Delights</title>
 	<link rel="shortcut icon" href="images/favicon.ico">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/MenuPage.css">
+   <link rel="stylesheet" href="css/Carousel.css">
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -34,13 +36,58 @@
        </ul>
     </nav>
     <main>
-        
+       <div id="regular">
+           <h2>Donuts-$1.05</h2><p>Chocolate Frosted<br>Vanilla Frosted<br>Boston Cream<br> Jelly Filled<br> Cream Filled<br> Glazed<br> Chocolate Glazed<br> Marble Twist<br>Sugar Raised<br> Plain Donut<br> Plain Cruller<br> Honey Wheat<br> Jelly Puff<br> Cream Puff<br>Coffee Roll</p>
+       </div>
+       <div id="bakers">
+           <div id="top">
+             <h2>Bakers Dozen Donuts-$8.65<br>------------------------------------------</h2><h4>Pick 13 of any combination of regular donuts</h4>  
+           </div>
+           <div id="bottom">
+               <h2>Fancy Pastries-$2.00</h2><p>Bow Tie<br>Apple Turnover<br>&eacute;clair<br>Fancy Coffee Roll<br>French Cruller</p>
+           </div>
+       </div>
+            <!--Carousel-->
+        <div id="carousel">
+            <h2>Top Sellers</h2>
+           <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="images/Marshmellow.jpg" style="width:100%">
+                    <div class="text">Marshmellow Madness</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="images/BostonCream.jpg" style="width:100%">
+                    <div class="text">Boston Cream Delights</div>
+                </div>
+
+                <div class="mySlides fade">
+                  <img src="images/BullHorn.jpg" style="width:100%">
+                  <div class="text">Bulls Horn</div>
+                </div>
+                <div class="mySlides fade">
+                  <img src="images/Pinwheels.jpg" style="width:100%">
+                  <div class="text">Pistachio Pinwheels</div>
+                </div>
+                <div class="mySlides fade">
+                  <img src="images/ChocolateConfetti.jpg" style="width:100%">
+                  <div class="text">Chocolate Confetti</div>
+                </div>
+                <div class="mySlides fade">
+                  <img src="images/FrenchTwist.jpg" style="width:100%">
+                  <div class="text">French Twist</div>
+                </div>
+               
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                 </div>
+        </div>
 
     </main>
 
 	<footer>
 <h6>&copy;2018 Donut Delights. All Rights Reserved. </h6>
     </footer>
-	
+	<script src="JavaScript/Carousel.js"></script>
 </body>
 </html>

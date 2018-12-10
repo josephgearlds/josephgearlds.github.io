@@ -54,8 +54,32 @@ nav{
     text-align: right;
 }
 main{
-    display: flex;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
     grid-area: main;
+}
+#regular{
+    margin-left: 10px;
+    text-align: center;
+    grid-column: 1/2;
+}
+#bakers{
+    grid-column: 2/3;
+    display: grid;
+    grid-template-rows: 45% 55%;
+    margin-right: 20%; 
+}
+#top{
+    grid-row: 1/2;
+    text-align: center;
+}
+#bottom{
+    grid-row: 2/3;
+    text-align: center;
+}
+#carousel{
+    grid-column: 3/4;
+    text-align: center;
 }
 /*Footer styles*/
 footer{

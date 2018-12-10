@@ -54,17 +54,39 @@ nav{
     text-align: right;
 }
 main{
-    display: flex;
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
     grid-area: main;
 }
-/*
+
 #mapdiv{
-    width: 50%;
+   grid-column: 1/2;
+    text-align: center;
+    margin-left: 10px;
+
 }
+
 #map{
-    width: 100%;
+    width: 500px;
+    height: 300px;
+    border-style: solid;
+    border-width: 6px;
 }
-*/
+#text{
+    grid-column: 2/3;
+    text-align: center;
+    align-self: center;
+}
+#store{
+    grid-column: 3/4;
+    text-align: center;    
+}
+#storefront{
+    width: 500px;
+    height:300px;
+    border-style: solid;
+    border-width: 6px;
+}
 /*Footer styles*/
 footer{
    grid-area: footer;
